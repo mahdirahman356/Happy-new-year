@@ -10,7 +10,6 @@
     margin-left: auto;
     background-image:url(Banner\ Image.png) ;
     background-size: cover;
-    background-position: bottom ;
     margin-top: 50px;
 
 }
@@ -30,8 +29,6 @@
     line-height: 95px;
 }
 .inner-container{
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 150px;
     padding-bottom: 180px;
     padding-left: 290px;
