@@ -178,10 +178,12 @@ span{
     justify-content: space-between;
     align-items: center;
 }
-.offer-div,.offer-img,.year{
+.offer-div,.year{
+    width: 20%;
+ }
+.offer-img{
     width: 33%;
 }
-
 
 .new{
     color: #F00;
@@ -306,17 +308,21 @@ span{
 .gifts,.our,.portfolio-p{
   margin-bottom: 20px;
 }
+.img-part-one img{
+    width: 32%;
+}
+.img-part-two img{
+    width: 32%;
+}
 .img-part-one{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    gap: 15px;
 }
 .img-part-two{
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
-    gap: 15px;
 }
 
 /* section-subscribe */
@@ -340,7 +346,7 @@ span{
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .p-sub{
     color: rgba(7, 2, 17, 0.60);
@@ -349,11 +355,16 @@ span{
     font-size: 15px;
     font-weight: 400;
     line-height: 32px; 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 input{
     color: rgba(7, 2, 17, 0.30);
-    padding: 10px 10px;
+    padding: 15px 10px;
     padding-right: 100px;
     border: 2px solid white;
     text-align: center;
@@ -366,10 +377,10 @@ input{
 }
 .button-sub{
     color: #FFF;
-    padding: 10px 10px;
+    padding: 18px 30px;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
